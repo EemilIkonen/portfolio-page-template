@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <!-- Add your Font Awesome kit url here -->
+    <script src="your-fontawesome-kit-url" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                    <div class="navbar-nav ms-auto d-flex flex-row-force">
+                        <a class="nav-link me-2" href="your-github-link"><i class="fab fa-github fa-2xl"></i></a>
+                        <a class="nav-link" href="your-linkedin-link"><i class="fab fa-linkedin fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 60px; padding-bottom: 60px;">
+
+        <!--About section-->
+        <section style="padding-top: 60px;" id="about">
+            <div class="px-4 py-5 text-center">
+                <h1 class="display-1 fw-bold text-body-emphasis rubik-scribble-regular">Your name</h1>
+                <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cupiditate architecto soluta magni quisquam dolore neque amet, eos ea recusandae sed quo reprehenderit inventore aspernatur aperiam maxime odit sit? Aspernatur!</p>
+                    <blockquote class="blockquote text-center">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corporis quasi numquam repellendus eum nostrum dolor accusantium, illum possimus eveniet excepturi laboriosam ipsam, architecto atque. Quis dolorum eius quas facere?</p>
+                        <footer class="blockquote-footer"><cite title="Source Title"><a href="your-quote-link">Quote link</a></cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section style="padding-top: 60px;" id="projects">
+            
+            <!--Project card-->
+            <div class="container my-5">
+                <div class="p-5 portfolio-container text-center bg-body-tertiary rounded-3 mt-5" style="background-image: url('./assets/background.png');">
+                    <div class="text-box">
+                        <h1 class="text-body-emphasis mt-3">Project name</h1>
+                        <!-- Icons shelf -->
+                        <div class="d-flex justify-content-center my-3 gap-3">
+                            <i class="fab fa-html5 fa-4x html-icon"></i>
+                            <i class="fab fa-css3-alt fa-4x css-icon"></i>
+                            <i class="fab fa-js fa-4x js-icon"></i>
+                            <i class="fa-brands fa-bootstrap fa-4x bootstrap-icon"></i>
+                            <!-- Add more icons as needed -->
+                        </div>
+                        <div class="d-flex justify-content-center my-3 gap-3">
+                            <i class="fa-brands fa-python fa-4x python-icon"></i>
+                            <!-- Add more icons as needed -->
+                        </div>
+                            <p class="col-lg-8 mx-auto fs-5 text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nisl ultricies lacinia. Nullam nec purus nec nisl ultricies lacinia.
+                            </p>
+                            <div class="d-inline-flex gap-2 mb-3">
+                                <button class="align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                                    Live demo <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                                <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                                    Source code <i class="fab fa-github"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <div class="container text-center">
+                <h2>Contact Me</h2>
+                <p>Email: your-email@example.com</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile">your-linkedin-profile</a></p>
+                <p>GitHub: <a href="https://github.com/your-github-profile">your-github-profile</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">Built using <a href="https://github.com/EemilIkonen/portfolio-page-template">template</a> by <a href="https://github.com/EemilIkonen/">Eemil Ikonen</a></span>
+              </div>
+            </footer>
+          </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
