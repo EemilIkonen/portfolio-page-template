@@ -32,6 +32,7 @@ In `index.html`:
 - In the projects section, replace the placeholder content with your own projects. You can add as many project cards as you want by copy & pasting the project card. You can customize the project cards by changing the background image in the style tag and by changing the icons in the icon shelf.
   - To add new icons simply add them to the icon tag to the desired Icons shelf. Also add the color for the icon to the `style.css` and add the class to the icon tag.
 - In the contact details section, replace the placeholder content with your own contact details.
+- Add your own favicon.ico file into the assets folder
 
 ## Contributing
 
