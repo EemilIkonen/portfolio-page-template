@@ -27,6 +27,7 @@ Here's how you can use this template to showcase your own projects:
 
 In `index.html`:
 
+- Add your personal info into <meta> tags
 - Replace the placeholder Font Awesome kit URL in line 14 with your own. More info on kits [here](https://docs.fontawesome.com/web/setup/use-kit/).
 - Replace the hero quote with your own.
 - In the projects section, replace the placeholder content with your own projects. You can add as many project cards as you want by copy & pasting the project card. You can customize the project cards by changing the background image in the style tag and by changing the icons in the icon shelf.
